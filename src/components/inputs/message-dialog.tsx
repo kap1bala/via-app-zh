@@ -58,7 +58,7 @@ export const MessageDialog: React.FC<
       <ModalContainer>
         <PromptText>{props.children}</PromptText>
         <Controls>
-          <AccentButton onClick={closeModalWithCallback}>Confirm</AccentButton>
+          <AccentButton onClick={closeModalWithCallback}>确认</AccentButton>
         </Controls>
       </ModalContainer>
     </MessageDialogContainer>
