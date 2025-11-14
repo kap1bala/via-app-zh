@@ -84,19 +84,19 @@ export const Test: FC = () => {
 
   const waveformOptions = [
     {
-      label: 'Sine',
+      label: '正弦波',
       value: 'sine',
     },
     {
-      label: 'Triangle',
+      label: '三角波',
       value: 'triangle',
     },
     {
-      label: 'Sawtooth',
+      label: '锯齿波',
       value: 'sawtooth',
     },
     {
-      label: 'Square',
+      label: '方波',
       value: 'square',
     },
   ];
@@ -110,11 +110,11 @@ export const Test: FC = () => {
       value: TestKeyboardSoundsMode.WickiHayden,
     },
     {
-      label: 'Chromatic',
+      label: '半音阶',
       value: TestKeyboardSoundsMode.Chromatic,
     },
     {
-      label: 'Random',
+      label: '随机',
       value: TestKeyboardSoundsMode.Random,
     },
   ];
