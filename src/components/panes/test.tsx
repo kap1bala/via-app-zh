@@ -130,7 +130,7 @@ export const Test: FC = () => {
             <Row $selected={true}>
               <IconContainer>
                 <FontAwesomeIcon icon={faCircleQuestion} />
-                <MenuTooltip>Check Key</MenuTooltip>
+                <MenuTooltip>检查按键</MenuTooltip>
               </IconContainer>
             </Row>
           </MenuContainer>
@@ -138,10 +138,10 @@ export const Test: FC = () => {
         <SpanOverflowCell>
           <Container>
             <ControlRow>
-              <Label>Reset Keyboard</Label>
+              <Label>重置键盘</Label>
               <Detail>
                 <AccentButton onClick={testContextObj.clearTestKeys}>
-                  Reset
+                  重置
                 </AccentButton>
               </Detail>
             </ControlRow>
@@ -160,7 +160,7 @@ export const Test: FC = () => {
               </ControlRow>
             ) : null}
             <ControlRow>
-              <Label>Key Sounds</Label>
+              <Label>按键音效</Label>
               <Detail>
                 <AccentSlider
                   isChecked={testKeyboardSoundsSettings.isEnabled}
@@ -175,7 +175,7 @@ export const Test: FC = () => {
               </Detail>
             </ControlRow>
             <ControlRow>
-              <Label>Volume</Label>
+              <Label>音量</Label>
               <Detail>
                 <AccentRange
                   max={100}
@@ -192,7 +192,7 @@ export const Test: FC = () => {
               </Detail>
             </ControlRow>
             <ControlRow>
-              <Label>Transpose</Label>
+              <Label>移调</Label>
               <Detail>
                 <AccentRange
                   max={24}
@@ -209,7 +209,7 @@ export const Test: FC = () => {
               </Detail>
             </ControlRow>
             <ControlRow>
-              <Label>Waveform</Label>
+              <Label>波形</Label>
               <Detail>
                 <AccentSelect
                   isSearchable={false}
@@ -227,7 +227,7 @@ export const Test: FC = () => {
               </Detail>
             </ControlRow>
             <ControlRow>
-              <Label>Mode</Label>
+              <Label>模式</Label>
               <Detail>
                 <AccentSelect
                   isSearchable={false}
