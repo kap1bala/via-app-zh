@@ -1,57 +1,58 @@
-# [VIA Web Application](https://usevia.app) - Your keyboards best friend
+# [VIA Web 应用](https://usevia.app) - 您键盘的最佳伙伴
 
-![android-chrome-192x192](https://user-images.githubusercontent.com/1714072/222621960-ddfb8ee6-a486-4c66-8852-b204ba7c807b.png)
+![android-chrome-192x192](https://github.com/kap1bala/via-app-zh/blob/main/public/android-chrome-192x192.png?raw=true)
 
-[![Azure Static Web Apps CI/CD](https://github.com/the-via/app/actions/workflows/azure.yml/badge.svg)](https://github.com/the-via/app/actions/workflows/azure.yml)
+VIA 是一个强大的、开源的基于网络的界面，用于配置你的 [QMK](https://qmk.fm) 机械键盘。它允许你自定义你的键位映射、创建宏，以及动态调整 RGB 设置（如果它有 RGB），而无需重新编译你键盘的固件。这使得键盘定制更加容易和普及。
 
-VIA is a powerful, open-source web-based interface for configuring your [QMK](https://qmk.fm)-powered mechanical keyboard. It allows you to customize your keymaps, create macros, and adjust RGB settings (if it has RGB) on the fly, without needing to recompile your keyboard's firmware. This makes keyboard customization easier and more accessible for everyone.
+> [!IMPORTANT]
+> 本项目是 [the-via/app](https://github.com/the-via/app) 的非官方汉化版本，且不随原项目同步。
 
-## Getting VIA to support your keyboard
+## 让 VIA 支持你的键盘
 
-Are you a keyboard maker or a developer interested in adding support for your keyboard? We welcome contributions to the VIA project!
+你是键盘制造商还是对添加你键盘支持感兴趣的开发者？我们欢迎对 VIA 项目做出贡献！
 
-1. The source code of the keyboard **has to be merged** in [QMK Firmware Repositories](https://github.com/qmk/qmk_firmware) Master branch.
-2. Your `keymaps/via` keymap **has to be merged** in [VIA's QMK Userspace Repository](https://github.com/the-via/qmk_userspace_via) Main branch.
-3. Create a definition in JSON format for your keyboard and submit it as a pull request to [VIA's Keyboards Repository](https://github.com/the-via/keyboards) Master branch.
+1. 键盘的源代码 **必须合并到** [QMK 固件仓库](https://github.com/qmk/qmk_firmware) 的主分支。
+2. 你的 `keymaps/via` 键映射 **必须合并到** [VIA 的 QMK 用户空间存储库](https://github.com/the-via/qmk_userspace_via) 主分支中。
+3. 为您的键盘创建一个 JSON 格式的定义，并将其作为 pull request 提交到 [VIA 的键盘仓库](https://github.com/the-via/keyboards) 主分支。
 
-Please follow our [Specification documentation](https://www.caniusevia.com/docs/specification) carefully to ensure your pull request is smoothly reviewed and merged.
+请遵循我们的 [规范文档](https://www.caniusevia.com/docs/specification) ，以确保您的 pull request 能够顺利通过审核并被合并。
 
-## Local development setup
+## 本地开发环境设置
 
-### Useful commands
+### 有用的命令
 
 #### `npm run start`
 
-Runs the app in the development mode.
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+在开发模式下运行应用。
+在浏览器中打开 [http://localhost:8080](http://localhost:8080) 查看它。
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+如果你进行编辑，页面将重新加载。
+你还会在控制台中看到任何代码风格错误。
 
 #### `npm run build`
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+将你的站点静态复制到 `build/` 文件夹。
+你的应用已准备好部署！
 
 #### `npm run test`
 
-Launches the application test runner.
-Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+启动应用测试运行器。
+使用 `--watch` 标志 (`npm test -- --watch`) 以交互式监视模式运行。
 
 ---
 
-This project is tested with [BrowserStack](https://www.browserstack.com/).
+这个项目在 [BrowserStack](https://www.browserstack.com/) 上进行了测试。
 
-## Looking for an offline app?
+## 寻找离线应用？
 
-@cebby2420 has kindly made a desktop app that does so.
+@cebby2420 善意地制作了一个桌面应用来实现这一功能。
 
-You can find it at [https://github.com/cebby2420/via-desktop](https://github.com/cebby2420/via-desktop).
+你可以在 [https://github.com/cebby2420/via-desktop](https://github.com/cebby2420/via-desktop) 找到它。
 
-**NOTE: This project has no official affiliation with VIA, and we cannot provide support for it.**
+**注意：该项目与 VIA 没有官方关联，我们无法为其提供支持。**
 
-## Facing Issues?
+## 遇到问题？
 
-If you encounter any issues or bugs while using the [VIA web application](https://usevia.app), please report them by opening an issue in the [Issues section](https://github.com/the-via/app/issues). This will help us to track down and resolve problems, and improve the VIA experience for everyone.
+如果您在使用 [VIA 网络应用程序](https://usevia.app) 时遇到任何问题或错误，请通过在 [Issues 部分](https://github.com/the-via/app/issues) 打开问题来报告它们。这将帮助我们追踪并解决问题，并改善 VIA 的体验。
 
-Before reporting, please make sure to check if an issue has already been reported. Thank you!
+在报告之前，请确保检查是否已经报告过该问题。谢谢！
