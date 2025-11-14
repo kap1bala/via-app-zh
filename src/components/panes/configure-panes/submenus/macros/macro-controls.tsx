@@ -85,9 +85,9 @@ export const MacroEditControls: React.FC<{
       <IconButtonTooltip>
         {isFullscreen
           ? isRecording
-            ? 'Stop Recording'
-            : 'Record Keystrokes'
-          : 'Can only record when fullscreen'}
+            ? '停止录制'
+            : '录制按键'
+          : '仅在全屏时才能录制'}
       </IconButtonTooltip>
     </IconButtonContainer>
   );
@@ -107,7 +107,7 @@ export const MacroEditControls: React.FC<{
                     color="var(--color_label)"
                     icon={faUndo}
                   />
-                  <IconButtonTooltip>Undo Changes</IconButtonTooltip>
+                  <IconButtonTooltip>撤销更改</IconButtonTooltip>
                 </IconButtonContainer>
                 <IconButtonContainer
                   disabled={!hasUnsavedChanges || isRecording}
@@ -118,7 +118,7 @@ export const MacroEditControls: React.FC<{
                     color="var(--color_label)"
                     icon={faSave}
                   />
-                  <IconButtonTooltip>Save Changes</IconButtonTooltip>
+                  <IconButtonTooltip>保存更改</IconButtonTooltip>
                 </IconButtonContainer>
               </MacroControlGroupContainer>
               <MacroControlGroupDivider />
@@ -137,7 +137,7 @@ export const MacroEditControls: React.FC<{
                 color="var(--color_label)"
                 icon={faTrash}
               />
-              <IconButtonTooltip>Delete Macro</IconButtonTooltip>
+              <IconButtonTooltip>删除宏</IconButtonTooltip>
             </IconButtonContainer>
           </MacroControlGroupContainer>
           <MacroControlGroupDivider />
@@ -155,7 +155,7 @@ export const MacroEditControls: React.FC<{
               icon={isFullscreen ? faCompress : faExpand}
             />
             <IconButtonTooltip>
-              {isFullscreen ? 'Exit Fullscreen' : 'Fullscreen'}
+              {isFullscreen ? '退出全屏' : '全屏'}
             </IconButtonTooltip>
           </IconButtonContainer>
         }
@@ -171,8 +171,8 @@ export const MacroEditControls: React.FC<{
               <FontAwesomeIcon size={'sm'} icon={faMagicWandSparkles} />
               <IconButtonTooltip>
                 {!optimizeRecording
-                  ? 'Use Smart Optimization'
-                  : 'Skip Smart Optimization'}
+                  ? '使用智能优化'
+                  : '取消智能优化'}
               </IconButtonTooltip>
             </IconToggleContainer>
             <IconToggleContainer
@@ -187,10 +187,10 @@ export const MacroEditControls: React.FC<{
               />
               <IconButtonTooltip>
                 {!isDelaySupported
-                  ? 'Upgrade firmware to use delays'
+                  ? '更新固件以使用延迟'
                   : !recordDelays
-                  ? 'Record Delays'
-                  : 'Skip Recording Delays'}
+                  ? '录制延迟'
+                  : '取消录制延迟'}
               </IconButtonTooltip>
             </IconToggleContainer>
           </MacroControlGroupContainer>
