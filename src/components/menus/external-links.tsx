@@ -17,7 +17,7 @@ export const ExternalLinks = () => (
     <a href="https://caniusevia.com/" target="_blank">
       <CategoryIconContainer>
         <VIALogo height="25px" fill="currentColor" />
-        <CategoryMenuTooltip>Firmware + Docs</CategoryMenuTooltip>
+        <CategoryMenuTooltip>固件 + 文档</CategoryMenuTooltip>
       </CategoryIconContainer>
     </a>
     <a href="https://discord.gg/NStTR5YaPB" target="_blank">
@@ -26,7 +26,7 @@ export const ExternalLinks = () => (
         <CategoryMenuTooltip>Discord</CategoryMenuTooltip>
       </CategoryIconContainer>
     </a>
-    <a href="https://github.com/the-via/app" target="_blank">
+    <a href="https://github.com/kap1bala/via-app-zh" target="_blank">
       <CategoryIconContainer>
         <FontAwesomeIcon size={'xl'} icon={faGithub} />
         <CategoryMenuTooltip>Github</CategoryMenuTooltip>
