@@ -15,5 +15,5 @@ const SvgIcKeyboard24Px: React.FC<{}> = (_) => (
   </svg>
 );
 
-export const title = 'Layouts';
+export const title = '\u5e03\u5c40';
 export const component = SvgIcKeyboard24Px;

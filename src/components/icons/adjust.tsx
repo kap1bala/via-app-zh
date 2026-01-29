@@ -9,5 +9,5 @@ const SvgIcAdjust24Px: React.FC<{}> = (props) => (
   </svg>
 );
 
-export const title = 'Macros';
+export const title = '\u5b8f';
 export const component = SvgIcAdjust24Px;
