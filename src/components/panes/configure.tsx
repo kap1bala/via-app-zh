@@ -221,7 +221,7 @@ const ConfigureGrid = () => {
   const selectedTitle = KeyboardRows[selectedRow]?.Title;
 
   useEffect(() => {
-    if (selectedTitle !== 'Keymap') {
+    if (selectedTitle !== '\u952e\u76d8\u6620\u5c04') {
       dispatch(setConfigureKeyboardIsSelectable(false));
     } else {
       dispatch(setConfigureKeyboardIsSelectable(true));
