@@ -147,7 +147,7 @@ export const Test: FC = () => {
             </ControlRow>
             {canUseMatrixState && selectedDefinition ? (
               <ControlRow>
-                <Label>Test Matrix</Label>
+                <Label>测试矩阵</Label>
                 <Detail>
                   <AccentSlider
                     isChecked={isTestMatrixEnabled}
